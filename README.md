@@ -15,4 +15,4 @@ Dockerized MySQL8 / PHPMyAdmin
 ## Dump table
 docker compose -p dbpoe-app exec -it db mysqldump -u poe -c -ppassword -N -t -y --skip-opt --skip-comments --skip-quote-names  post_suivi_stagiaire trainee > data-trainee.sql
 
-docker exec -it  dbpoe-testu-db-1 mysqldump -u poe -c -ppassword -N -t -y --skip-opt --skip-comments --skip-quote-names  post_suivi_stagiaire trainee > data-trainee.sql
+docker exec -it  dbpoe-app-db-1 mysqldump -u poe -c -ppassword -N -t -y --skip-opt --skip-comments --skip-quote-names  post_suivi_stagiaire trainee > data-trainee.sql
