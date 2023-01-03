@@ -1,3 +1,2 @@
-.env
-datas/*
-!/datas/.ok
+datas*/*
+!/datas*/.ok
