@@ -8,5 +8,7 @@ Dockerized MySQL8 / PHPMyAdmin
 `cd docker-mysql8-phpmyadmin`
 
 ## Run the container
-`docker compose up -d`
+`docker compose -p dbpoe-app up -d`
+
+`docker compose --env-file .env-testu -p dbpoe-testu up -d`
 
