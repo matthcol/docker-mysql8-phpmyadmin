@@ -1,0 +1,2 @@
+docker compose -p dbpoe-app exec -T db mysql -u poe -ppassword post_suivi_stagiaire < sql\data-poe.sql
+docker compose -p dbpoe-app exec -T db mysql -u poe -ppassword post_suivi_stagiaire < sql\data-trainee.sql
